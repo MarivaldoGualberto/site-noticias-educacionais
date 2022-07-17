@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MGR NOTICIAS EDUCACIONAIS</title>
     <link rel="stylesheet" href="css.css">
-</head>
 
 <body>
     <!--CABEÇALHO-->
