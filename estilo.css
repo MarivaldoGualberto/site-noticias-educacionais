@@ -1,0 +1,36 @@
+body{font-family: Georgia, 'Times New Roman', Times, serif;justify-content: center; height: ; }
+H1{color: white; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+#geral { width: 90%; margin: 0 auto;justify-content: center}
+#topo{width: 100%; height: 100px; background-color: rgb(49, 187, 192); justify-content: center; background-image: url("img/topo-site.png");}
+#titulo-site{ width:80%; margin: auto; text-align: center; padding-top: 20px;}
+#menu{ width: 100%;}
+#coluna_1{width: 30%; background-color: cornflowerblue; float: left;text-decoration-line: none;}
+#coluna_1 a{text-decoration-line: none;text-decoration: none;}
+#coluna_1 a h4{color:black;text-decoration-line: none;text-decoration: none;}
+#coluna_1 a h4:hover{color: blanchedalmond;}
+#coluna_2 a h4{ color:black;text-decoration-line: none;text-decoration: none;}
+#coluna_2 a h4:hover{color: blanchedalmond;}
+#coluna_2{width: 70%; background-color:darkgoldenrod; float: right;}
+
+#box_1_col_1{width: 90%;  padding: 1px; margin: 0 auto; border-bottom:1px black solid; margin-bottom: 2px; padding-bottom: 2px;}
+#box_2_col_1{width: 90%;  padding: 1px; margin: 0 auto;border-bottom:1px black solid;}
+#box_1_col_2{ width: 90%;  padding: 3px; margin: 2px; justify-content: center;border-bottom:1px black solid; margin-bottom: 2px; padding-bottom: 1%;}
+#box_1_col_2 a p{text-align: justify; text-decoration: none;}
+#box_1_col_2 img{width: 20%; height:100%; float: left;  border:solid 1px darkgray;border-radius:5px; }
+#box_1_col_2 a img:hover{border:solid 2px #ccc;    border-radius:5px;}    
+#box_1_col_2 a p{ color:black;text-decoration-line: none;}
+#box_1_col_2 a{ text-decoration: none;}
+#box_1_col_1 a{ text-decoration: none;}
+#box_1_col_2 a p:hover{color: blanchedalmond;}
+#box_1_col_2 .data_publi{font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 12px; margin-top: -2px; margin-bottom: -2px;}
+#box_2_col_2{width: 90%; float: left;  padding: 1px; margin: 2px;border-bottom:1px rgb(173, 167, 167) solid; margin-bottom: 2px;}
+#rodape{ width: 100%; background-color:darksalmon; float: left;  background-image: url("img/topo-site.png");}
+#redes{width: 30%; float: right;}
+#redes h4{font-family: Verdana, Geneva, Tahoma, sans-serif; color: white; font-size: 18px;}
+#redes ul{font-size: 16px;list-style: none; background-color: yellow;}
+#redes ul a{font-size: 16px;list-style: none; color: brown;padding:  5px 10px; float: left; padding-right: 0 auto; width: 32px; height: 32px; background-color: #fff; margin: 3px;}
+#redes ul a{border-radius: 100%;}
+#redes ul a:hover{ background-color:darkcyan;}
+.mais_not{width: 50%; float:right; }
+.mais_not p a{color: #000; font-family: Verdana, Geneva, Tahoma, sans-serif; float: right; inline-size: none;margin-right: 10px; }

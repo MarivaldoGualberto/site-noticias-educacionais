@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MGR NOTICIAS EDUCACIONAIS</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <!--CABEÇALHO-->
+    <header>
+        <div id="mgr-container">
+            <!--img src="logo.svg" alt="MGRMETA"-->
+
+            <h1>MGRODRIGUES NOTICIAS EDUCACIONAIS</h1>
+            <p>Desenvolvido por<a href="https://github.com/MarivaldoGualberto">@marivaldogualberto</a></p>
+            <div>
+                <table class="menu">
+                    <thead>
+                        <tr>
+                            <th><a class="navbar-brand" href="index.html">Home</a></th>
+                            <th><a class="dropdown-item" href="noticia.html">Noticia</a></th>
+                            <th><a class="dropdown-item" href="login.html">Login</a></th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+    </header>
+<body>
+<div id="geral">
+  <div id="topo"></div>
+  <div id="menu">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Administração - Painel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Notícias
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="index.html">Cadastro</a></li>
+                <li><a class="dropdown-item" href="list_not.html">Listar</a></li>
+                <li><a class="dropdown-item" href="#">Editar</a></li>
+                
+                
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="cad_categoria.html">Cadastro</a></li>
+                <li><a class="dropdown-item" href="#">Listar</a></li>
+                <li><a class="dropdown-item" href="#">Editar</a></li>
+                
+                
+              </ul>
+            </li>
+            
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div id="conteudo">
+
+    <form class="row g-3">
+      
+      <div id="form_painel">
+
+       
+          <legend>Cadastro de Categoria - <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Status</label>
+          </legend>
+          <div class="mb-3">
+            <label  class="form-label">Nome da Categoria</label>
+            <input type="text" class="form-control" >            
+            <label  class="form-label">Data da Categoria</label>
+            <input type="text" class="form-control" > 
+  <input class="btn btn-primary" type="submit" value="Cadastrar">
+            
+          </div>
+
+      </div>
+     
+    </form>
+
+  </div>
+</div>
+
+</body>
+</html>
