@@ -22,9 +22,9 @@ a:visited {
 
 header {
     background: linear-gradient(180deg, #102347 0%, #181818 100%);
-    height: 130px;
+    height: 120px;
     display: flex;
-    /*align-items: center*/
+    align-items: center;
     justify-content: center;
 
 }
@@ -32,7 +32,7 @@ header {
 #mgr-container {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 
@@ -41,17 +41,17 @@ header {
     font-size: 24px;
 }
 
-#mgr-container h1:after{
+#mgr-container h1:after {
     content: ' ';
     display: block;
     width: 100%;
     height: 2px;
     margin-top: 5px;
-    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
-    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
-  }
+    background: -webkit-linear-gradient(left, rgba(147, 184, 189, 0) 0%, rgba(147, 184, 189, 0.8) 20%, rgba(147, 184, 189, 1) 53%, rgba(147, 184, 189, 0.8) 79%, rgba(147, 184, 189, 0) 100%);
+    background: linear-gradient(left, rgba(147, 184, 189, 0) 0%, rgba(147, 184, 189, 0.8) 20%, rgba(147, 184, 189, 1) 53%, rgba(147, 184, 189, 0.8) 79%, rgba(147, 184, 189, 0) 100%);
+}
 
-  #mgr-container p {
+#mgr-container p {
     font-size: 14px;
     font-weight: 300;
     text-align: center;
@@ -62,13 +62,13 @@ header {
 }
 
 #menu ul {
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: center;
-    list-style: none; 
+    list-style: none;
 }
 
 #menu ul li {
-    display: inline;    
+    display: inline;
 }
 
 #menu ul li a {
@@ -77,18 +77,28 @@ header {
     text-decoration: none;
 }
 
-#menu ul li a:hover{
-   color: red;  
+#menu ul li a:hover {
+    color: red;
 }
 
 
-#geral{margin: 0 auto; width: 75%;}
+#geral {
+    margin: 0 auto;
+    width: 75%;
+}
+
+#menu2 {
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
 
 #menu2 .administracao {
-    color: aqua;
-    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
     display: inline-block;
-    text-decoration: none;
 }
 
 #menu2 .d-flex {
@@ -96,35 +106,87 @@ header {
     float: right;
 }
 
-#menu2 ul {
-    padding-top: 5px;
+.collapse.navbar-collapse {
+    padding-top: 10px;
+}
+
+#menu2 li {
+    display: flex;
+    padding-top: 10px;
     padding: 5px 10px;
     text-align: justify;
     list-style: none;
+    display: inline;
 }
 
-#menu2 ul li {
-    display: inline;  
-}
-
-body{
-    font-family:  Verdana, Geneva, Tahoma, sans-serif; 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
 
-#menu2{width: 100%; height: 60px; float: left; margin-bottom: 100px; padding: 10px 10px;}
-
-
-
-
-#conteudo{width: 100%; float: left; height: 100%;
-  background: #ccc; padding: 20px; padding-top: 10px;}
-
-
-#form_painel { width: 65%; margin: 0 auto; padding-top: 20px;}
-
-#form_painel legend {
-    padding: 5px 0px;
+#conteudo {
+    width: 100%;
+    float: right;
+    height: 200%;
+    background: #ccc;
+    padding: 20px;
 }
 
-#paginacao{ width: 50%; float: right;}
+
+#conteudo .row.g-3 {
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+
+.mb-3 label {
+    padding: 15px 0px 0px;
+}
+
+#form_painel legend {
+    font-size: 20px;
+    color: black;
+
+}
+
+#form_painel .form-check-input {
+    width: 2em;
+    height: 2em;
+    margin-top: .30px;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 3em solid rgba(0,0,0,.25);
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: .30em;
+}
+
+#form_painel .form-control {
+    padding: 5px 5px;
+}
+
+.btn.btn-primary {
+    width: 80px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+  input[type="submit"]:hover{
+    background: #4ab3c6;
+  }
+
+
+
+/*#paginacao{ width: 50%; float: right;}*/

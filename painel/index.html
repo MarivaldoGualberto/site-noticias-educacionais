@@ -34,95 +34,93 @@
   <body>
 
     <div id="geral">
-      <div id="topo"></div>
-      <div id="menu2">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="administracao" href="#">Administração - Painel</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+    <!--<div id="topo"></div>-->
+    <div id="menu2">
+      <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">-->
+      <!--<div class="container-fluid">-->
+      <a class="administracao" href="#">Administração - Painel</a>
+      <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
               aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            </button>-->
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <!--<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">-->
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false"> Notícias
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                    <!--<li><a class="dropdown-item" href="index.html">Cadastro</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false"> Notícias
+          </a>
+          <!--<ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">-->
+          <!--<li><a class="dropdown-item" href="index.html">Cadastro</a></li>
                     <li><a class="dropdown-item" href="#">Listar</a></li>
                     <li><a class="dropdown-item" href="#">Editar</a></li>-->
-                    <select class="form-select" aria-label="Noticia">
-                      <option selected>Notícias</option>
-                      <option value="1"><a class="dropdown-item" href="#">Cadastro</a></option>
-                      <option value="2"><a class="dropdown-item" href="#">Listar</a></option>
-                      <option value="3"><a class="dropdown-item" href="#">Editar</a></option>
-                    </select>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Categorias
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                    <select class="form-select" aria-label="Categoria">
-                      <option selected>Categoria</option>
-                      <option value="1"><a class="dropdown-item" href="cad_categoria.html">Cadastro</a></option>
-                      <option value="2"><a class="dropdown-item" href="#">Listar</a></option>
-                      <option value="3"><a class="dropdown-item" href="#">Editar</a></option>
-                    </select>
-                  </ul>
-                </li>
-              </ul>
-
-            </div>
-          </div>
-        </nav>
+          <select class="form-select" aria-label="Noticia">
+            <option selected>Notícias</option>
+            <option value="1"><a class="dropdown-item" href="#">Cadastro</a></option>
+            <option value="2"><a class="dropdown-item" href="#">Listar</a></option>
+            <option value="3"><a class="dropdown-item" href="#">Editar</a></option>
+          </select>
+          <!--</ul>-->
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Categorias
+          </a>
+          <!--<ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">-->
+          <select class="form-select" aria-label="Categoria">
+            <option selected>Categoria</option>
+            <option value="1"><a class="dropdown-item" href="cad_categoria.html">Cadastro</a></option>
+            <option value="2"><a class="dropdown-item" href="#">Listar</a></option>
+            <option value="3"><a class="dropdown-item" href="#">Editar</a></option>
+          </select>
+          <!--</ul>-->
+        </li>
+        <!--</ul>-->
       </div>
-      <div id="conteudo">
+      <!--</div>-->
+      <!--</nav>-->
+    </div>
+    <div id="conteudo">
 
-        <form class="row g-3">
+      <form class="row g-3">
 
-          <div id="form_painel">
+        <div id="form_painel">
 
-            <legend>Cadastro de Notícia - <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-              <label class="form-check-label" for="flexSwitchCheckDefault">Status</label>
-            </legend>
-            <div class="mb-3">
-              <label class="form-label">Título da Notícia</label>
-              <input type="text" class="form-control">
-              <label class="form-label">Categoria</label>
-              <select class="form-select" aria-label="Categoria">
-                <option selected>Categoria</option>
-                <option value="1">PHP</option>
-                <option value="2">MYSQL</option>
-                <option value="3">JAVA</option>
-              </select>
-              <label class="form-label">Data da Notícia</label>
-              <input type="text" class="form-control">
-              <label class="form-label">Autor da Notícia</label>
-              <input type="text" class="form-control">
-              <label for="exampleFormControlTextarea1" class="form-label">Texto da Notícia</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-
-
-              <input class="form-control" type="file" id="formFile">
-              <input class="btn btn-primary" type="submit" value="Cadastrar">
-
-            </div>
+          <legend><strong>Cadastro de Notícia - </strong><input class="form-check-input" type="checkbox"
+              id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault"><strong>Status</strong></label>
+          </legend>
+          <div class="mb-3">
+            <label class="form-label">Título da Notícia</label>
+            <input type="text" class="form-control">
+            <label class="form-label">Categoria</label>
+            <select class="form-select" aria-label="Categoria">
+              <option selected>Categoria</option>
+              <option value="1">PHP</option>
+              <option value="2">MYSQL</option>
+              <option value="3">JAVA</option>
+            </select>
+            <label class="form-label">Data da Notícia</label>
+            <input type="text" class="form-control">
+            <label class="form-label">Autor da Notícia</label>
+            <input type="text" class="form-control">
+            <label for="exampleFormControlTextarea1" class="form-label">Texto da Notícia</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+            <input class="form-control" type="file" id="formFile">
+            <input class="btn btn-primary" type="submit" value="Cadastrar">
 
           </div>
 
-        </form>
+        </div>
 
-      </div>
+      </form>
+
+    </div>
     </div>
 
   </body>
